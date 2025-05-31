@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar') {
             steps {
-                git 'https://github.com/TU_USUARIO/ci-demo.git'
+                git url: 'https://github.com/lGodl2/ci-demo.git', branch: 'main'
             }
         }
 
